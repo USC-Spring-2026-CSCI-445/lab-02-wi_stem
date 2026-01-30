@@ -24,7 +24,7 @@ class Cliff:
             return
         self.t_last_print = time()
         raw = state.cliff
-        distance = 0.0  # TODO: fit function mapping raw to distance
+        distance = 22.329*(raw*raw)-258.27*(raw) + 974.4  # TODO: fit function mapping raw to distance
 
         ######### Your code starts here #########
         # calculation from raw sensor value to distance (Step 3.3 of lab)
